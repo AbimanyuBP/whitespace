@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Home from './pages/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>AAAAAAAAAAAAAAAAAAAAA</h1>
+        <Home/>
       </div>
     </>
   )
