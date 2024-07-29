@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}", 
   ], 
   theme: { 
-    extend: {}, 
+    extend: {
+      backgroundImage:{
+        'swirly-pattern': "url('assets/svgs/swirly.svg')",
+      },
+      backgroundColor:{
+        'yale-blue': "#043873",
+      },
+    }, 
   }, 
   plugins: [], 
 } 
